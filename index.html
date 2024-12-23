@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odin todolist</title>
+<script defer src="main.js"></script></head>
+<body>
+    <div class="project-container" id="project-container">
+    </div>
+    <div class="todo-container" id="todo-container">
+    </div>
+    <div class="popup" id="add-proj-container">
+        <div class="popup-container">
+            <input type="text" class="title" id="proj-title" placeholder="project title">
+            <div>
+                <button id="add-proj-button">add project</button>
+                <button id="proj-exit">exit</button>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="add-todo-container">
+        <div class="popup-container">
+            <input type="text" id="todo-title" class="title" placeholder="todo title"></input>
+            <input type="text" id="datepicker" placeholder="due date">
+            <input type="text" id="todo-priority" placeholder="priority"></input>
+            <input type="text" id="todo-desc" placeholder="description"></input>
+            <div>
+                <button id="add-todo-button">add todo</button>
+                <button id="todo-exit">exit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
